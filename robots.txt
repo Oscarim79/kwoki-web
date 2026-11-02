@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kwokitoys.com/sitemap.xml
