@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>KWOKI · Juguetes impresos en 3D, capa por capa, en Guatemala · Muy pronto</title>
-<meta name="description" content="KWOKI: llaveros, fidgets y Kwoki, nuestro quokka, impresos en 3D en Guatemala. Estamos preparando la tienda; muy pronto.">
+<title>KWOKI | Juguetes impresos en 3D en Guatemala · Muy pronto</title>
+<meta name="description" content="KWOKI: llaveros con tu nombre, juguetes antiestrés y Kwoki, nuestro quokka, impresos en 3D en Guatemala. Estamos preparando la tienda.">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://kwokitoys.com/">
 <meta name="theme-color" content="#F7F6F2">
 <meta property="og:type" content="website">
@@ -26,6 +27,34 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;700&display=swap">
 <!-- KWOKI · página de espera. Fuente: web/landing/espera.html en el repo privado Koala; se publica con
      publicar_sitio.py --espera. Sin --espera vuelve la landing completa. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://kwokitoys.com/#organizacion",
+      "name": "KWOKI",
+      "alternateName": ["Kwoki Toys", "kwokitoys"],
+      "url": "https://kwokitoys.com/",
+      "logo": "https://kwokitoys.com/apple-touch-icon.png",
+      "image": "https://kwokitoys.com/og.png",
+      "description": "Juguetes, llaveros y fidgets impresos en 3D, capa por capa, en Guatemala.",
+      "email": "hola@kwokitoys.com",
+      "areaServed": { "@type": "Country", "name": "Guatemala" },
+      "slogan": "Juguetes que nacen capa por capa"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kwokitoys.com/#sitio",
+      "url": "https://kwokitoys.com/",
+      "name": "KWOKI",
+      "inLanguage": "es-GT",
+      "publisher": { "@id": "https://kwokitoys.com/#organizacion" }
+    }
+  ]
+}
+</script>
 <style>
 :root { --crema: #F7F6F2; --tinta: #1B1A3A; --tenue: #55546E; --amarillo: #F9D030; --fucsia: #F62AA0; --neon: #B8EE30; --aqua: #26DFD0; }
 * { box-sizing: border-box; }
@@ -44,16 +73,24 @@ a:hover, a:focus-visible { text-decoration-color: var(--fucsia); outline: none; 
 footer { margin-top: 40px; color: var(--tenue); font-size: 0.95rem; }
 .equipo { display: block; margin-top: 8px; }
 .equipo a { font-weight: 600; text-decoration-thickness: 2px; }
+.oculto { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.ofrecemos { margin: 30px 0 26px; padding: 20px 18px 8px; background: #fff; border: 3px solid var(--tinta); border-radius: 18px; box-shadow: 0 6px 0 var(--tinta); text-align: left; }
+.ofrecemos h2 { font-family: Fredoka, Nunito, sans-serif; font-weight: 700; font-size: 1.3rem; margin: 0 0 8px; text-align: center; }
 </style>
-<!-- KWOKI · página de espera · generado el 2026-11-13 19:28 -->
+<!-- KWOKI · página de espera · generado el 2026-11-17 14:19 -->
 </head>
 <body>
 <main>
 <svg role="img" aria-label="KWOKI" class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="-1 6 563 356"><title>KWOKI · logo vertical · a color</title><g transform="translate(-0.92 6.21) scale(0.99900)"><path fill="#1B1A3A" d="M259.4,93.9c-.6-4.8-4.3-8.4-8.3-7.9-4,.5-6.7,4.8-6.1,9.7.6,4.8,4.3,8.4,8.3,7.9,4-.5,6.7-4.8,6.1-9.7Z"/><path fill="#1B1A3A" d="M311.5,49.9c1.5-4.3,3.5-8.6,5.8-12.5,2.7-4.2,6.1-8.3,11.2-9.3-4-.4-7.9,2-10.7,4.8-4.9,5.1-8.1,11.6-10.2,18.3,8.8,5.5,16.9,12.3,22.9,20.9-3.5-9.3-10.9-16.7-19.1-22.2Z"/><path fill="#1B1A3A" d="M308,96.7c4-.5,6.7-4.8,6.1-9.7-.6-4.8-4.3-8.4-8.3-7.9-4,.5-6.7,4.8-6.1,9.7s4.3,8.4,8.3,7.9Z"/><path fill="#1B1A3A" d="M253.2,132.1c.2-.2.5-.4.8-.7,4.7,6.3,10.5,9.8,15.3,11.6.6.5,4.2,3.3,6.9,8.6,1,2.3,2.4,4.6,4.4,6.2,2.3,1.8,5,2.6,8,2.2,3-.4,5.5-1.7,7.2-4.1,1.2-1.6,1.9-3.4,2.4-5.3h0c0-.2,0-.4.1-.7,0-.3.1-.5.2-.8,1.3-6,4.2-9.7,4.7-10.4,4.3-3,9.2-7.8,12.1-15.2.5.3,1,.5,1.3.7.8.4,1.7.8,2.5,1.2l.2-.3c-1-4.6-5.6-6.9-9.9-5.1l-.2.3c.8.5,1.6.9,2.4,1.4.2.1.5.3.8.4-3.7,9.6-10.8,14.5-16.1,16.9-2.2,1-4.9.7-6.9-.8-1.4-1.1-2.4-2.7-2.6-4.5l-.4-2.9-1.6.2-1.6.2.4,2.9c.2,1.8-.3,3.6-1.4,5-1.5,2-4,2.9-6.4,2.5-5.7-1-13.6-4-19.6-12.2.4-.3.7-.6,1-.9.7-.6,1.3-1.3,2-1.9l-.2-.2c-4.6-.7-8.5,2.6-8.3,7.3l.2.2c.7-.6,1.5-1.1,2.2-1.7ZM284.9,141.1c.5-.6.8-1.2,1.2-1.9.5.6,1,1.1,1.6,1.6.4.3.8.6,1.3.8v.8c0,0-4.9.6-4.9.6v-.8c.3-.3.6-.7.9-1.1ZM294.7,151.3c-.4,1-.8,1.9-1.4,2.7-1.2,1.6-2.9,2.6-5.1,2.8-2.2.3-4-.2-5.6-1.5-.8-.7-1.5-1.5-2.1-2.4,1.8-1.5,6.7-4.7,14.2-1.6Z"/><path fill="#1B1A3A" d="M300.3,111c-.8-6.5-9.3-10.9-19-9.7-9.7,1.2-16.9,7.5-16.1,14,.8,6.5,10,16.8,19.7,15.6,9.7-1.2,16.1-13.4,15.3-19.9Z"/><path fill="#1B1A3A" d="M344.9,28.8c4.2,6,6.7,14,6.8,23,.2,16.3-16,26.9-16.1,27l-1.4.9.9,1.4c0,0,3.5,5.1,8,10.6h.1c11.3,13.8,25.7,41.5-4.3,72.6l-.9.9h0c-.8.8-1.7,1.6-2.5,2.4-3.7,3.3-7.6,6.2-11.9,8.8,5.6-2.3,11.1-5.2,16.1-8.7l8.8,12.6c20.1-18.3,32.8-44.7,32.8-74.1s-14.2-58.8-36.4-77.2Z"/><path fill="#1B1A3A" d="M239.4,180c1,.4,2.1.8,3.1,1.1,4.7,1.6,9.6,2.7,14.6,3.4-6.2-2-12.2-4.5-17.7-7.9h0c-36.7-22.7-29.5-53.1-22-69.2v-.2c3.1-6.4,5.2-12.2,5.2-12.2l.6-1.5-1.6-.5c-.2,0-18.5-6.3-22.3-22.2-2-8.5-1.7-16.7.8-23.4-11.9,16.5-19,36.7-19,58.6,0,38.2,21.4,71.5,52.9,88.3l5.5-14.4Z"/><path fill="#1B1A3A" d="M242.1,59.3c-3.7-6-8.3-11.5-14.4-15.3-3.4-2-7.7-3.4-11.5-2.1,5.3-.3,9.5,2.8,13.1,6.3,3.3,3.2,6.2,6.9,8.7,10.7-6.6,7.3-12,16.3-13.1,26.2,3.7-9.8,10-18.3,17.2-25.8Z"/><path fill="#1B1A3A" d="M250.2,49.6l.8.9,1.1-.6c0,0,9.4-5.1,20.9-6,15.1-1.3,22.2.7,22.3.7l1.3.4.6-1.2c6.1-11.8,21.7-26.9,32.9-25.2-14.5-8.1-31.2-12.8-48.9-12.8-26.6,0-50.7,10.3-68.6,27.2,10.6-3.8,29,6.8,37.7,16.5Z"/></g><g transform="translate(60 280) rotate(-6) translate(-52.0 -52.0)"><rect x="0" y="8" width="104" height="104" rx="24" fill="#1B1A3A"/><rect x="2.5" y="2.5" width="99" height="99" rx="21.5" fill="#F9D030" stroke="#1B1A3A" stroke-width="5"/><path d="M40.61 77.704Q37.55 77.704 36.257999999999996 76.786Q34.966 75.868 34.694 74.406Q34.422 72.944 34.422 71.448V36.291999999999994Q34.422 34.79599999999999 34.694 33.367999999999995Q34.966 31.939999999999998 36.257999999999996 31.021999999999995Q37.55 30.103999999999992 40.678 30.103999999999992Q43.806 30.103999999999992 45.064 31.021999999999995Q46.322 31.939999999999998 46.594 33.367999999999995Q46.866 34.79599999999999 46.866 36.35999999999999V45.744L58.698 32.211999999999996Q60.262 30.511999999999993 61.622 29.831999999999994Q62.982 29.151999999999994 64.41 29.559999999999995Q65.838 29.967999999999996 67.53800000000001 31.599999999999994Q70.326 34.11599999999999 70.394 36.019999999999996Q70.462 37.92399999999999 68.15 40.37199999999999L54.822 53.971999999999994L68.218 67.368Q70.73400000000001 69.884 70.56400000000001 71.89Q70.394 73.896 67.606 76.208Q65.566 77.84 64.138 78.248Q62.71 78.656 61.486000000000004 77.94200000000001Q60.262 77.228 58.766000000000005 75.46L46.866 61.928V71.51599999999999Q46.866 73.012 46.594 74.44Q46.322 75.868 45.03 76.786Q43.738 77.704 40.61 77.704Z" fill="#1B1A3A"/></g><g transform="translate(170 292) rotate(5) translate(-52.0 -52.0)"><rect x="0" y="8" width="104" height="104" rx="24" fill="#1B1A3A"/><rect x="2.5" y="2.5" width="99" height="99" rx="21.5" fill="#B8EE30" stroke="#1B1A3A" stroke-width="5"/><path d="M39.522000000000006 77.636Q37.346000000000004 77.636 36.122 76.752Q34.898 75.868 34.354 74.814Q33.81 73.76 33.674 73.42L21.434 38.331999999999994Q20.414 34.931999999999995 21.128 33.26599999999999Q21.842 31.599999999999994 25.378 30.443999999999996Q27.69 29.695999999999998 29.118000000000002 29.763999999999996Q30.546 29.831999999999994 31.498 30.919999999999995Q32.45 32.007999999999996 33.198 34.31999999999999L40.269999999999996 54.992L45.846000000000004 34.66Q46.05 33.98 46.56 32.891999999999996Q47.07 31.803999999999995 48.294 30.953999999999994Q49.518 30.103999999999992 51.830000000000005 30.103999999999992Q54.414 30.103999999999992 55.672 31.055999999999994Q56.93 32.007999999999996 57.406000000000006 33.096Q57.882000000000005 34.184 58.086000000000006 34.727999999999994L63.662000000000006 55.128L70.73400000000001 34.31999999999999Q71.482 32.07599999999999 72.4 30.953999999999994Q73.31800000000001 29.831999999999994 74.81400000000001 29.695999999999994Q76.31 29.559999999999995 78.62200000000001 30.375999999999998Q81.07000000000001 31.259999999999998 82.09 32.245999999999995Q83.11000000000001 33.23199999999999 83.144 34.66Q83.178 36.087999999999994 82.498 38.331999999999994L70.326 73.42Q70.19 73.828 69.68 74.848Q69.17 75.868 67.946 76.752Q66.72200000000001 77.636 64.41 77.636Q62.098000000000006 77.636 60.806000000000004 76.582Q59.514 75.52799999999999 58.97 74.40599999999999Q58.426 73.28399999999999 58.358000000000004 73.08L51.966 52.135999999999996L45.574 73.012Q45.506 73.352 44.962 74.474Q44.418000000000006 75.596 43.160000000000004 76.616Q41.902 77.636 39.522000000000006 77.636Z" fill="#1B1A3A"/></g><g transform="translate(280 280) rotate(-4) translate(-52.0 -52.0)"><rect x="0" y="8" width="104" height="104" rx="24" fill="#1B1A3A"/><rect x="2.5" y="2.5" width="99" height="99" rx="21.5" fill="#26DFD0" stroke="#1B1A3A" stroke-width="5"/><path d="M52.306 78.452Q47.342 78.452 43.024 76.582Q38.705999999999996 74.712 35.44199999999999 71.38Q32.178 68.048 30.308 63.662Q28.438 59.275999999999996 28.438 54.312Q28.438 49.144 30.239999999999995 44.656Q32.041999999999994 40.168 35.238 36.768Q38.434 33.367999999999995 42.684 31.463999999999995Q46.934 29.559999999999995 51.762 29.559999999999995Q56.726 29.559999999999995 61.044 31.429999999999996Q65.362 33.3 68.626 36.632Q71.89 39.964 73.726 44.418Q75.562 48.872 75.562 54.03999999999999Q75.562 59.072 73.75999999999999 63.492Q71.958 67.91199999999999 68.728 71.27799999999999Q65.49799999999999 74.644 61.315999999999995 76.548Q57.134 78.452 52.306 78.452ZM51.965999999999994 66.008Q54.278 66.008 56.318 65.09Q58.358000000000004 64.172 59.888000000000005 62.574Q61.418 60.976 62.268 58.766Q63.118 56.556 63.118 54.03999999999999Q63.118 51.524 62.234 49.348Q61.35 47.172 59.82 45.506Q58.29 43.839999999999996 56.284 42.922Q54.278 42.004 52.034 42.004Q49.721999999999994 42.004 47.715999999999994 42.922Q45.709999999999994 43.839999999999996 44.17999999999999 45.506Q42.65 47.172 41.766 49.348Q40.882 51.524 40.882 54.03999999999999Q40.882 56.488 41.766 58.664Q42.65 60.839999999999996 44.17999999999999 62.506Q45.709999999999994 64.172 47.715999999999994 65.09Q49.721999999999994 66.008 51.965999999999994 66.008Z" fill="#1B1A3A"/></g><g transform="translate(390 293) rotate(6) translate(-52.0 -52.0)"><rect x="0" y="8" width="104" height="104" rx="24" fill="#1B1A3A"/><rect x="2.5" y="2.5" width="99" height="99" rx="21.5" fill="#F62AA0" stroke="#1B1A3A" stroke-width="5"/><path d="M40.61 77.704Q37.55 77.704 36.257999999999996 76.786Q34.966 75.868 34.694 74.406Q34.422 72.944 34.422 71.448V36.291999999999994Q34.422 34.79599999999999 34.694 33.367999999999995Q34.966 31.939999999999998 36.257999999999996 31.021999999999995Q37.55 30.103999999999992 40.678 30.103999999999992Q43.806 30.103999999999992 45.064 31.021999999999995Q46.322 31.939999999999998 46.594 33.367999999999995Q46.866 34.79599999999999 46.866 36.35999999999999V45.744L58.698 32.211999999999996Q60.262 30.511999999999993 61.622 29.831999999999994Q62.982 29.151999999999994 64.41 29.559999999999995Q65.838 29.967999999999996 67.53800000000001 31.599999999999994Q70.326 34.11599999999999 70.394 36.019999999999996Q70.462 37.92399999999999 68.15 40.37199999999999L54.822 53.971999999999994L68.218 67.368Q70.73400000000001 69.884 70.56400000000001 71.89Q70.394 73.896 67.606 76.208Q65.566 77.84 64.138 78.248Q62.71 78.656 61.486000000000004 77.94200000000001Q60.262 77.228 58.766000000000005 75.46L46.866 61.928V71.51599999999999Q46.866 73.012 46.594 74.44Q46.322 75.868 45.03 76.786Q43.738 77.704 40.61 77.704Z" fill="#1B1A3A"/></g><g transform="translate(500 282) rotate(-5) translate(-52.0 -52.0)"><rect x="0" y="8" width="104" height="104" rx="24" fill="#1B1A3A"/><rect x="2.5" y="2.5" width="99" height="99" rx="21.5" fill="#F9D030" stroke="#1B1A3A" stroke-width="5"/><path d="M51.965999999999994 77.704Q48.90599999999999 77.704 47.61399999999999 76.786Q46.321999999999996 75.868 46.05 74.406Q45.778 72.944 45.778 71.448V36.291999999999994Q45.778 34.79599999999999 46.05 33.367999999999995Q46.321999999999996 31.939999999999998 47.61399999999999 31.021999999999995Q48.90599999999999 30.103999999999992 52.03399999999999 30.103999999999992Q55.16199999999999 30.103999999999992 56.419999999999995 31.021999999999995Q57.678 31.939999999999998 57.949999999999996 33.367999999999995Q58.221999999999994 34.79599999999999 58.221999999999994 36.35999999999999V71.51599999999999Q58.221999999999994 73.012 57.949999999999996 74.44Q57.678 75.868 56.385999999999996 76.786Q55.093999999999994 77.704 51.965999999999994 77.704Z" fill="#1B1A3A"/></g><circle cx="115" cy="286" r="9" fill="#FFFFFF" stroke="#1B1A3A" stroke-width="4"/><circle cx="225" cy="286" r="9" fill="#FFFFFF" stroke="#1B1A3A" stroke-width="4"/><circle cx="335" cy="286" r="9" fill="#FFFFFF" stroke="#1B1A3A" stroke-width="4"/><circle cx="445" cy="286" r="9" fill="#FFFFFF" stroke="#1B1A3A" stroke-width="4"/></svg>
-<h1>Juguetes impresos en 3D, capa por capa, en Guatemala</h1>
+<h1><span class="oculto">KWOKI: </span>Juguetes impresos en 3D, capa por capa, en Guatemala</h1>
 <div class="capas" aria-hidden="true"><span style="background: var(--amarillo)"></span><span style="background: var(--fucsia)"></span><span style="background: var(--neon)"></span><span style="background: var(--aqua)"></span></div>
 <p>Estamos preparando la tienda: Kwoki, nuestro quokka, y los primeros juguetes ya se están imprimiendo.</p>
 <p><span class="pronto">Muy pronto</span></p>
+<section class="ofrecemos" aria-labelledby="ofrecemos-titulo">
+<h2 id="ofrecemos-titulo">Lo que vas a encontrar</h2>
+<p>Llaveros personalizados con tu nombre, juguetes antiestrés y fidgets, dragones y animalitos articulados, accesorios para tu mascota y figuras de Kwoki. Todo impreso en 3D en Guatemala, con los colores que elijas.</p>
+<p>KWOKI es un emprendimiento familiar guatemalteco. Cada pieza nace capa por capa en nuestra impresora 3D, y cuando abramos podrás pedir la tuya por WhatsApp.</p>
+</section>
 <p>¿Quieres que te avisemos cuando abramos? Escríbenos a <a href="mailto:hola@kwokitoys.com">hola@kwokitoys.com</a>.</p>
 <footer>© 2026 KWOKI · Guatemala<span class="equipo"><a href="https://taller.kwokitoys.com/" rel="nofollow">Entrar al Taller</a> (solo para el equipo)</span></footer>
 </main>
